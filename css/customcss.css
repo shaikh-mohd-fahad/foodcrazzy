@@ -1,0 +1,115 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+}
+#header{
+	background-image:url(../image/background2.jpeg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	min-height:400px;
+	margin-top:0px;
+	position:relative;
+}
+#header #aa{
+	position:absolute;
+	top:70%;
+	left:50%;
+	z-index:1;
+	transform:translate(-50%,-50%);
+}
+
+#header div.navbar{
+	position:relative;
+	z-index:23;
+}
+#header #clp1, #header form{
+	position:relative;
+	z-index:23;
+}
+div .right{
+	float:right;
+}
+footer .row .col-md-6 a{
+	color:white;
+	text-decoration:none;
+}
+footer .row .col-md-6 a:hover{
+	color:#ffe5bb;
+	text-decoration:none;
+}
+#search{
+	border:none;
+	outline:none;
+	border-style:none;
+}
+#search:focus{
+	border:none;
+	outline:none;
+	border-style:none;
+}
+#header .navbar .collapse .nav .nav-link{
+	color:white;
+}
+#header .navbar .collapse .nav .nav-link:hover{
+	color:#ffe5bb;
+}
+#container .row .col-md-4 .card .card-img{
+	height:200px;
+}
+
+.card-body{
+	padding:5px;
+}
+
+#menu{
+	padding-top:10px;
+}
+#menu .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #ff992b;
+}
+
+/* media query */
+@media (max-width:768px){
+	#container{
+		width:100%;
+		margin:auto;
+		max-width: 100%;
+	}
+	#container .row .col-md-4{
+		width:33%;
+	}
+	#container .row .col-md-4 .card img.card-img{
+		height:130px;
+	}
+	#container .row .col-md-4 .card .card-body h6,p{
+		font-size:12px;
+	}
+	#container .row .col-md-4 .card .card-body p a.btn{
+		font-size:15px;
+		padding:5px;
+		
+	}
+	#sp1{
+		font-size:10px;
+	}
+}
+@media (max-width:692px){
+	#container{
+		width:100%;
+		margin:auto;
+		max-width: 100%;
+	}
+	#container .row .col-md-4{
+		width:50%;
+	}
+	#container .row .col-md-4 .card img.card-img{
+		height:100px;
+	}
+}

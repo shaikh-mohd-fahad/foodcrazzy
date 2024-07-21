@@ -1,0 +1,100 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+	width:100%;
+	height:100%;
+	overflow-x:hidden;
+}
+
+#header #aa{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+div .right{
+	float:right;
+}
+footer .row .col-md-6 a{
+	color:white;
+	text-decoration:none;
+}
+footer .row .col-md-6 a:hover{
+	color:#ffe5bb;
+	text-decoration:none;
+}
+#header .navbar .collapse .nav .nav-link{
+	color:white;
+}
+#header .navbar .collapse .nav .nav-link:hover{
+	color:#ffe5bb;
+}
+#container .row .col-md-4 .card .card-img{
+	height:200px;
+}
+
+.card-body{
+	padding:5px;
+}
+#menu{
+	padding-top:10px;
+}
+#menu .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #ff992b;
+}
+
+input[type="file"]{
+	display:none;
+	margin-bottom:0px;
+}
+label{
+	background:#e1d8d8;
+	color:black;
+	padding:7px;
+	border-radius:5px;
+	margin-bottom:0px;
+	cursor:pointer;
+}
+#btn1{
+	padding:2px;
+	
+}
+
+/* media query Started*/
+@media (max-width:768px){
+	#container{
+		width:100%;
+		margin:auto;
+		max-width: 100%;
+	}
+	#container .row .col-md-4{
+		width:33%;
+	}
+	#container .row .col-md-4 .card img.card-img{
+		height:130px;
+	}
+	#container .row .col-md-4 .card .card-body h6,p{
+		font-size:12px;
+	}
+	#container .row .col-md-4 .card .card-body p a.btn{
+		font-size:15px;
+		padding:5px;
+		
+	}
+}
+@media (max-width:692px){
+	#container{
+		width:100%;
+		margin:auto;
+		max-width: 100%;
+	}
+	#container .row .col-md-4{
+		width:50%;
+	}
+	#container .row .col-md-4 .card img.card-img{
+		height:100px;
+	}
+}
